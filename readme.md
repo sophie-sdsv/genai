@@ -13,11 +13,11 @@ The RAG model will scrape information from a website using `BeautifulSoup` , the
 The assembling of the model is done using the `langGraph` library, which allows enabling memory, then we initialise tool calling, then the retrieval bit, and lastly processing the output with retrieved information.
 
 The outputs without presence of agents:
-![](chain.png)
+![](chain.PNG)
 
 
 Output with agents:
-![](agent.png)
+![](agent.PNG)
 
 Theoretically, the difference between the 2 instances would be using agents creates a more versatile output, because now you're allowing the model to conduct multiple retrievals and build upon contexts it already have. The model also has somewhat more authority over whether or not they want to summon retrieval again.
 
